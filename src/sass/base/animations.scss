@@ -1,0 +1,23 @@
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideVs {
+    0% {
+        transform: rotate(0deg) translateX(0%) rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(360deg) translateX(150%) rotate(-360deg);
+    }
+
+    100% {
+        transform: rotate(720deg) translateX(0%) rotate(-720deg);
+    }
+}
